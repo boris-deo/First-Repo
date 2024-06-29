@@ -1,0 +1,51 @@
+.row > div {
+    background-color: lightgray;
+    margin: 1%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .col-lg-4{
+        float: left;
+        width: 31.3%;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 48%;
+    }
+    .col-md-12 {
+        width: 98%;
+    }
+}
+
+#topright {
+    background-color: palevioletred;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    width: 20%;
+    float: right;
+    text-align: center;
+    overflow:hidden;
+    clear: both;
+    font-size: medium;
+    font-weight: bold;
+}
+
+p {
+    padding: 2%;
+    padding-bottom: 0;
+}
